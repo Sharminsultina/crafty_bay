@@ -1,3 +1,11 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+import '../../../data/models/brand_model.dart';
+import '../screens/product_details_screen.dart';
+
 class BrandCardItem extends StatelessWidget {
   const BrandCardItem({
     super.key,

@@ -1,3 +1,20 @@
+import 'package:crafty_bay/presentation/ui/screens/reviews_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:item_count_number_button/item_count_number_button.dart';
+import '../../../data/models/product_details_data.dart';
+import '../../../data/services/network_caller.dart';
+import '../../../data/utility/urls.dart';
+import '../../state_holders/add_to_cart_controller.dart';
+import '../../state_holders/auth_controller.dart';
+import '../../state_holders/product_details_controller.dart';
+import '../utility/app_colors.dart';
+import '../widgets/center_circular_progress_indicator.dart';
+import '../widgets/product_details/color_selector.dart';
+import '../widgets/product_details/product_image_carousel.dart';
+import '../widgets/product_details/size_selector.dart';
+import 'auth/verify_email_screen.dart';
+
 class ProductDetailsScreen extends StatefulWidget {
   const ProductDetailsScreen({super.key, required this.productId});
 

@@ -1,3 +1,16 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+import '../../state_holders/list_review_by_product_controller.dart';
+import '../../state_holders/verify_otp_controller.dart';
+import '../utility/app_colors.dart';
+import '../widgets/center_circular_progress_indicator.dart';
+import '../widgets/home/circle_icon_button.dart';
+import 'auth/verify_email_screen.dart';
+import 'create_review_screen.dart';
+
 class ReviewsScreen extends StatefulWidget {
   const ReviewsScreen({
     super.key,

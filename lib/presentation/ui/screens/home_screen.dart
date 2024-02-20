@@ -1,3 +1,28 @@
+import 'package:crafty_bay/presentation/ui/screens/product_list_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import '../../../data/models/brand_model.dart';
+import '../../../data/models/product_model.dart';
+import '../../state_holders/auth_controller.dart';
+import '../../state_holders/brand_list_controller.dart';
+import '../../state_holders/category_controller.dart';
+import '../../state_holders/home_banner_controller.dart';
+import '../../state_holders/main_bottom_controller.dart';
+import '../../state_holders/new_product_controller.dart';
+import '../../state_holders/popular_product_controller.dart';
+import '../../state_holders/special_product_controller.dart';
+import '../utility/assets_path.dart';
+import '../widgets/brand_item.dart';
+import '../widgets/category_item.dart';
+import '../widgets/center_circular_progress_indicator.dart';
+import '../widgets/home/banner_carousel.dart';
+import '../widgets/home/circle_icon_button.dart';
+import '../widgets/home/section_title.dart';
+import '../widgets/product_card_item.dart';
+import 'app_policy_screen.dart';
+import 'auth/verify_email_screen.dart';
+import 'brand_screen.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

@@ -1,3 +1,21 @@
+import 'package:crafty_bay/presentation/ui/screens/wishlist_screen.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+import '../../state_holders/brand_list_controller.dart';
+import '../../state_holders/category_controller.dart';
+import '../../state_holders/home_banner_controller.dart';
+import '../../state_holders/main_bottom_controller.dart';
+import '../../state_holders/new_product_controller.dart';
+import '../../state_holders/popular_product_controller.dart';
+import '../../state_holders/special_product_controller.dart';
+import '../utility/app_colors.dart';
+import 'cart_list_screen.dart';
+import 'category_screen.dart';
+import 'home_screen.dart';
+
 class MainBottomNavScreen extends StatefulWidget {
   const MainBottomNavScreen({super.key});
 

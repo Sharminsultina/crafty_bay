@@ -1,10 +1,8 @@
 import 'dart:convert';
 import 'dart:developer';
-
-import 'package:get/get_connect/http/src/response/response.dart';
-
-import '../../presentation/state_holders/auth_controller.dart';
-import '../models/response_data.dart';
+import 'package:crafty_bay/data/models/response_data.dart';
+import 'package:crafty_bay/presentation/state_holders/auth_controller.dart';
+import 'package:http/http.dart';
 
 class NetworkCaller {
   Future<ResponseData> getRequest(String url, {String? token}) async {

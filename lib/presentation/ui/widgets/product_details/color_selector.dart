@@ -1,3 +1,6 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 class ColorSelector extends StatefulWidget {
   const ColorSelector(
       {super.key, required this.colors, required this.onChange});

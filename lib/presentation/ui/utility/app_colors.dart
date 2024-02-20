@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 class AppColors {
   static Map<int, Color> colorSwatch = {
     50: const Color.fromRGBO(4, 131, 184, .1),
