@@ -1,3 +1,14 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+import '../../state_holders/main_bottom_controller.dart';
+import '../../state_holders/product_wish_list_controller.dart';
+import '../utility/app_colors.dart';
+import '../widgets/center_circular_progress_indicator.dart';
+import '../widgets/product_card_item.dart';
+
 class WishListScreen extends StatefulWidget {
   const WishListScreen({super.key});
 

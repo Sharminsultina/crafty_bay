@@ -1,3 +1,7 @@
+import 'package:flutter/material.dart';
+
+import 'app_colors.dart';
+
 class AppThemeData {
   static ThemeData lightThemeData = ThemeData(
     progressIndicatorTheme: const ProgressIndicatorThemeData(

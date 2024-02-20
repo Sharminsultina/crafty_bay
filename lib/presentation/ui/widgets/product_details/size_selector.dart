@@ -1,3 +1,8 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+import '../../utility/app_colors.dart';
+
 class SizeSelector extends StatefulWidget {
   const SizeSelector({super.key, required this.onChange, required this.sizes});
 

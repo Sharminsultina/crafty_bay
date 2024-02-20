@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_state_manager/src/simple/get_state.dart';
-
+import 'package:get/get.dart';
 import '../../../../data/models/create_profile_params.dart';
 import '../../../state_holders/complete_profile_controller.dart';
+import '../../../state_holders/verify_otp_controller.dart';
 import '../../widgets/app_logo.dart';
 import '../../widgets/center_circular_progress_indicator.dart';
+import '../main_bottom_nav_screen.dart';
 
 class CompleteProfileScreen extends StatefulWidget {
   const CompleteProfileScreen({super.key});

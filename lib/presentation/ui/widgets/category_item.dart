@@ -1,3 +1,12 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+import '../../../data/models/catagory_list_item.dart';
+import '../screens/product_list_screen.dart';
+import '../utility/app_colors.dart';
+
 class CategoryItem extends StatelessWidget {
   const CategoryItem({
     super.key,

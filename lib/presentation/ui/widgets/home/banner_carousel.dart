@@ -1,3 +1,8 @@
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/material.dart';
+import '../../../../data/models/banner_item.dart';
+import '../../utility/app_colors.dart';
+
 class BannerCarousel extends StatefulWidget {
   const BannerCarousel({
     super.key,
